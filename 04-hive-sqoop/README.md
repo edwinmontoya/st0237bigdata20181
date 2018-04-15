@@ -33,7 +33,7 @@ debe haber una archivo /home/<username>/datasets/hdi-data.csv para el trabajo a 
 ```
 $ beeline
 beeline>
-!connect jdbc:hive2://hdplabmaster:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2     
+!connect jdbc:hive2://hdpmaster.dis.eafit.edu.co:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2     
 ```
 
 5. Crear la tabla HDI en Hive:
